@@ -1,0 +1,16 @@
+<h1>Reto 2:</h1>
+<h1>Ingreso de Producto a Stock</h1>
+  Descripción: <input type="text" [(ngModel)]="descripcion"><br>
+  Código: <input type="text" [(ngModel)]="codigo"><br>
+  Precio Costo $: <input type="text" [(ngModel)]="precioCosto"><br>
+  Precio Venta $: <input type="text" [(ngModel)]="precioVenta"><br>
+  Stock Ideal: <input type="text" [(ngModel)]="stockIdeal"><br>
+  <button type="button" (click)="ingresarProducto()">Ingresar</button><br>
+{{ mensaje }}
+
+<h4>Resultados Reto2</h4>
+Descripción: {{descripcion}}<br>
+Código: {{codigo}}<br>
+Precio Costo: {{precioCosto}}<br>
+Precio Venta: {{precioVenta}}<br>
+Stock Ideal: {{stockIdeal}}<br>
